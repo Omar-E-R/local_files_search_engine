@@ -1,7 +1,3 @@
----
-typora-copy-images-to: ./
----
-
 # local_files_search_engine
 
 Voici deux exemple de recherche:
@@ -24,7 +20,7 @@ from spacy.lang.fr.stop_words import STOP_WORDS as fr_stopwords_list
 
 La base de données utilisées est **Postgresql**.
 
-<img src="/home/omar/workspace/M2/hypermedia/google/Screenshot from 2021-12-16 18-19-15.png" alt="Screenshot from 2021-12-16 18-19-15" style="zoom:50%;" />
+<img src="Screenshot from 2021-12-16 18-19-15.png" alt="Screenshot from 2021-12-16 18-19-15" style="zoom:50%;" />
 
 ## Back-end
 
