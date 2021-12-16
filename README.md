@@ -42,7 +42,9 @@ Les resultats seront envoyé au format JSON en utilisant une fonctionnalité de 
 
 React-JS est le front avec une fonctionnalité de "hook-rebound" et de "active-search". Dès l'écriture dans la barre de recherche on peut avoir de résultat. Donc on n'aura ni à rafraichir la page ni à clicker sur entrer à chaque recherche.
 
+## Script de mise à jour
 
+J'ai crée un script `start_server.sh`  qui relance le serveur quand il y a un nouveau fichier ajouter pour qu'il soit indexer.
 
 
 
