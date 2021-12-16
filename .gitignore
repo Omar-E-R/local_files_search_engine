@@ -45,3 +45,5 @@ spritesmith.scss
 
 # templated email
 tmp_email/
+.idea
+.vscode

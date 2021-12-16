@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'google_api.apps.GoogleApiConfig',
     'corsheaders',
+    'livereload',
 ]
 
 MIDDLEWARE = [
@@ -55,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'livereload.middleware.LiveReloadScript',
 ]
 
 ROOT_URLCONF = 'google.urls'

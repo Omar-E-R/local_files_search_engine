@@ -32,7 +32,7 @@ function App() {
         setSearchResults([]);
       }
     },
-    [debouncedSearchTerm] // Only call effect if debounced search term changes
+    [debouncedSearchTerm]
   );
 
   return (
@@ -66,7 +66,7 @@ function App() {
                 <li>
                   &emsp;<b>{item.words}</b> &emsp;{" "}
                   <em>
-                    <u>{item.documents}</u>{" "}
+					<u>{item.documents}</u>{" "}
                   </em>{" "}
                   <sup>{item.occurrences}</sup>
                 </li>

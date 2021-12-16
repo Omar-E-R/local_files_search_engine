@@ -82,7 +82,7 @@ class GoogleApiConfig(AppConfig):
                     df = pd.DataFrame(columns=["words"])
 
                     # Read Txt file by putting each line on new row
-                    df["words"] = pd.read_csv(file, sep='\n', header=None)
+                    df["words"] = pd.read_csv(''.join([head, '/', file]), sep='\n', header=None)
 
                     # Split lines of text into list of words at every non alpha character
                     df["words"] = df["words"].apply(lambda x: re.split("[^A-Za-zÀ-ȕ]+", x))
